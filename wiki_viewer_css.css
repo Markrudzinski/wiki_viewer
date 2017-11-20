@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(180, 60, 60);
+  text-align: center;
+  margin-top: 220px;
+}
+.rndWiki {
+  font-size: x-large;
+  color: black;
+  background-color: rgb(180, 60, 60);
+  border-style: none;
+  outline: none;
+}
+input[type=text] {
+    margin-top: 40px;
+    border-radius: 20px;
+    transition: all .8s ease-in-out;
+    border-color: rgb(0, 0, 0);
+    background: rgb(60, 60, 180);
+    text-align: center;
+    width: 120px;
+}
+input[type=text]:focus {
+  width: 300px;
+  outline: none;
+}
+.wikiBtn {
+  margin-top: 20px;
+  background: rgb(60, 60, 180);
+  border-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  outline: none;
+}
+.resultFormat {
+  margin: 20px;
+  width: 800px;
+  padding: 10px;
+  text-align: left;
+  background: lightgray;
+  color: black;
+}

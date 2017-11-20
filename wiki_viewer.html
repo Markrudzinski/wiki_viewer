@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./wiki_viewer_css.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="wiki_viewer_js.js"></script>
+</head>
+<body>
+  <button class ="btn rndWiki" onclick="rndWiki()">
+    Click here for a random article
+  </button><br>
+  <input id="inpSearch" type="text" name="search" onkeypress="searchEnter(event)" placeholder="Search Wikipedia"><br>
+  <button class ="btn wikiBtn" onclick="wikiSearch()">Search</button>
+  <button class ="btn wikiBtn" onclick="clearBtn()">X</button>
+  <div class="container"> 
+    <div class="row">
+      <div id="searchResults" class="col-lg-6 col-lg-offset-2">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
